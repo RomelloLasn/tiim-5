@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.pilt img {
+    width: 800px;
+    height: 150px;
+}
