@@ -13,11 +13,17 @@
 # Töökäik
 ## 1. päev
 Tiimiga tutvumine.
+
 Suhtluskanali loomine (Slack).
+
 Ideede arutamine.
+
 Töö planeerimine.
+
 Wireframe-i loomine.
+
 Erinevate taskide jaotamine.
+
 Figmas disainimine.
 
 ## 2. päev
