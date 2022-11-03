@@ -11,6 +11,21 @@
 * Aliin
 
 # Töökäik
+## 1. päev
+Tiimiga tutvumine.
+Suhtluskanali loomine (Slack).
+Ideede arutamine.
+Töö planeerimine.
+Wireframe-i loomine.
+Erinevate taskide jaotamine.
+Figmas disainimine.
+
+## 2. päev
+Eelmisel päeva töö review.
+Koodi kirjutamine.
+
+## 3. päev
+
 
 ## Kas aja planeerimine vastas tegelikkusele?
 
