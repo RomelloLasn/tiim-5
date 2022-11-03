@@ -78,3 +78,24 @@ h2 {
 p{
     margin: 2px;
 }
+
+.aadress {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    text-align: left;
+}
+
+.google{     
+    display: flex;
+    margin: auto;
+    width: 55%;
+    height: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+    .google{
+        width: 85%;
+    }
+  }
