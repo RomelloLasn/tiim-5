@@ -3,6 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* hide mobile version by default */
+.logomobile {
+    display: none;
+}
+.nupud {
+    display: none;
+}
+input {
+    display: none;
+}
+
+/* when screen is less than 600px wide
+show mobile version and hide desktop */ 
+@media only screen and (max-width: 600px) {
+    body
+
+    .logomobile {
+        display: flex;
+        width: 92px;
+        height: 91px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .pilt {
+        display: none;
+    }
+
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -10,4 +42,50 @@
 .pilt img {
     width: 800px;
     height: 150px;
+}
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+}
+.tekst1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.opilased img {
+    width: 400px;
+    height: 250px;
+    padding-top: 35px;
+}
+
+.raivo {
+    display: flex;
+}
+.erialad {
+    display: flex;
+    justify-content: center;
+}
+.erialad img{
+    width: 990px;
+    height: 300px;
+}
+.juubel {
+    padding-left: 50px;
+    padding-right: 50px;
 }
