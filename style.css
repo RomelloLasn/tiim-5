@@ -40,6 +40,7 @@ h2 {
     width: 400px;
     height: 250px;
     padding-top: 35px;
+    padding-right: 25px;
 }
 
 .raivo {
@@ -54,6 +55,23 @@ h2 {
     height: 300px;
 }
 .juubel {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pilt4 img {
+    width: 600px;
+    height: 325px;
+    padding-right: 50px;
+}
+.juubelipidu {
+    display: flex;
+    
+}
+.juubelitekst {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pohivaartused {
     padding-left: 50px;
     padding-right: 50px;
 }
