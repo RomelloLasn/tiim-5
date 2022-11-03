@@ -57,7 +57,9 @@ tekst
 tekst
 
 ### Mari-Liis
-tekst
+*Järgmistest projektides saan kasutada Githubi üles- ja allalaadimis oskuseid, Figma oskused laienesid, CSS ja HTML koodi kirjutamis kogemus tuleb ilmselt uutes projektides abiks. 
+*Meeskonnaga ja õppejõududega probleemide lahendamine/suhtlemine.
+*Tehnilised oskused arenesid Figmas ja koodi kirjutamises. 
 
 ### Aliin
 tekst
