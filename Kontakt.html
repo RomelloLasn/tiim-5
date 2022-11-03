@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="kontakt.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuressaare Ametikool</title>
+</head>
+<body>
+  <div class="logo">
+    <div class="pilt">
+        <img src="kuressaare-ametikool-100-logo-02-02-04 (1).png" alt="">
+    </div>
+</div>
+
+<div class="nupud">
+    <input type="button" onclick="" value="PEALEHT">
+    <input type="button" onclick="" value="GALERII">
+    <input type="button" onclick="" value="KONTAKT">
+</div>
+<section class="container">
+  
+  <div class="kontaktikaart">
+    <h2>Kontakt</h2>
+    <div class="contact">
+      <div class="nimitiitel">
+        <div>
+          <p>Neeme Rand</p>
+          <p>Direktor</p>
+        </div>
+        <div>
+          <p>Jane Mägi</p>
+          <p>IT ja ettevõtluse õppesuuna juhtõpetaja</p>
+        </div>
+        <div>
+          <p>Andrus Naulainen</p>
+          <p>Kutseõpetaja</p>
+        </div>
+        <div>
+          <p>Ralf Heinsoo</p>
+          <p>Kutseõpetaja</p>
+        </div>
+        <div>
+          <p>Karl Gregor Rauniste</p>
+          <p>Kutseõpetaja</p>      
+        </div>
+        <div>
+          <p>Ian-Erik Pettersson</p>
+          <p>Kutseõpetaja</p>     
+        </div> 
+        <div>
+          <p>Gen Vikat</p>
+          <p>Teenusepakkuja</p>
+        </div>
+        <div>
+          <p>Evi-Ustel Hallimäe</p>
+          <p>Kutseõpetaja</p>
+        </div>
+        <div>
+          <p>Arvo Kereme</p>
+          <p>Haldusjuht</p>
+        </div>
+        <div>
+          <p>Ade Sepp</p>
+          <p>Koolitusjuht</p>
+        </div>
+      </div>
+      <div class="kontaktid">
+      <div>
+        <p>452 4611</p>
+        <p>neeme.rand@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4693</p>
+        <p>jane.magi@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4651</p>
+        <p>andrus.naulainen@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4651</p>
+        <p>ralf.heinsoo@ametikool.ee</p>
+      </div>
+      <div>
+      <p>452 4651</p>
+      <p>karl_gregor.rauniste@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4605</p>
+        <p>ian.pettersson@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4XXX</p>
+        <p>Gen.Vikat@teenus.ee</p>
+      </div>
+      <div>
+        <p>452 4645</p>
+      <p>evi.ustel-hallimae@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4642</p>
+        <p>arvo.kereme@ametikool.ee</p>
+      </div>
+      <div>
+        <p>452 4666</p>
+        <p>ade.sepp@ametikool.ee</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="googleMap" style="width:32%;height:400px;margin: auto;"></div>
+
+<script>
+function myMap() {
+const myLatLng = { lat: 58.25632, lng: 22.48234 };
+var mapProp= {
+  center:new google.maps.LatLng(myLatLng),
+  zoom:15,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+ new google.maps.Marker({
+    position: myLatLng,
+    map
+ })
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+
+</body>
+</html>
+
