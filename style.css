@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.pilt img {
+    width: 750px;
+    height: 150px;
+}
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+}
