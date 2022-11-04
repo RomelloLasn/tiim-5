@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* hide mobile version by default */
+.logomobile {
+    display: none;
+}
+.nupud {
+    display: none;
+}
+input {
+    display: none;
+}
+
+/* when screen is less than 600px wide
+show mobile version and hide desktop */ 
+@media only screen and (max-width: 600px) {
+    body
+
+    .logomobile {
+        display: flex;
+        width: 92px;
+        height: 91px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .pilt {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        letter-spacing: 1px;
+        word-spacing: 0.15em;
+        font-size: 3em;
+        line-height: 1.2;
+        transform: translateY(52%);
+      }
+      
+      
+      #toggle {
+        display: none;
+      }
+      
+      /**
+        Hamburger
+      **/
+      .hamburger {
+        position: absolute;
+        top: 5em;
+        right: 5%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+      }
+      
+      .hamburger div {
+        position: relative;
+        width: 3em;
+        height: 7px;
+        border-radius: 3px;
+        background-color: #f8982b;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      /**
+      Nav Styles
+      **/
+      .nav {
+        position: fixed;
+        width: 100%;
+        height: 50%;
+        background-color: #f8982b;
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+      }
+      .nav-wrapper {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+      }
+      nav {
+        text-align: left;
+        margin-left: 25%;
+      }
+      nav a {
+        position: relative;
+        text-decoration: none;
+        color: blue;
+        font-size: 15px;
+        display: inline-block;
+        margin-top: 1.25em;
+        transition: color 0.2s ease-in-out;
+        letter-spacing: 1px;
+      }
+      nav a:before {
+        content: '';
+        height: 0;
+        position: absolute;
+        width: 0.25em;
+        background-color: white;
+        left: -0.5em;
+        transition: all 0.2s ease-in-out;
+      }
+      nav a:hover {
+        color: white;
+      }
+      nav a:hover:before {
+        height: 100%;
+      }
+      
+      /**
+      Animations
+      **/
+      #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+      }
+      #toggle:checked + .hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+      }
+      #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+      }
+      
+      #toggle:checked + .hamburger + .nav {
+        top: 0;
+        transform: scale(1);
+      }
+}
+
+
+
+
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+}
