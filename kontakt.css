@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.pilt img {
+    width: 750px;
+    height: 150px;
+}
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+}
+.tekst1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.kontaktikaart{
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    width: auto;
+    text-align: left;
+}
+
+
+.contact{
+    display: flex;
+    background-color: grey;
+}
+
+.nimitiitel{    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.kontaktid{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    margin: 2px;
+}
