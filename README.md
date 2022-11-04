@@ -58,7 +58,7 @@ Readme faili täiendamine.
 Esitluseks ettevalmistus.
 
 ## Kas aja planeerimine vastas tegelikkusele?
-Nagu ikka, lõpus hakkab kiire :) Aga midagi hullu pole olnud. Mahtusime oma planeeritud aja sisse.
+Nagu ikka, lõpus hakkab kiire :) Aga midagi väga hullu pole olnud. Mahtusime oma planeeritud aja sisse (enam-vähem).
 
 # FAQ
 * Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
@@ -71,7 +71,9 @@ Nagu ikka, lõpus hakkab kiire :) Aga midagi hullu pole olnud. Mahtusime oma pla
 * Tuletasin omale meelde html-i ja css-i ja arendasin enda oskusi javascriptis.
 
 ### Timo
-tekst
+* Olen veel julgem suhtleja, suudan tiimi juhtida ja juhedada.
+* Tiimi juhtimine.
+* Javascript.
 
 ### Romello
 * Kindlasti olem julgem ja enesekindlam
