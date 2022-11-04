@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.pilt img {
+    width: 750px;
+    height: 150px;
+}
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+}
+.tekst1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.opilased img {
+    width: 400px;
+    height: 250px;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.raivo {
+    display: flex;
+}
+.erialad {
+    display: flex;
+    justify-content: center;
+}
+.erialad img{
+    width: 990px;
+    height: 300px;
+}
+.juubel {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pilt4 img {
+    width: 600px;
+    height: 325px;
+    padding-right: 50px;
+}
+.juubelipidu {
+    display: flex;
+    
+}
+.juubelitekst {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pohivaartused {
+    padding-left: 50px;
+    padding-right: 50px;
+}
