@@ -66,7 +66,9 @@ tekst
 tekst
 
 ### Kevin
-tekst
+* Hakkan rohkem suhtlema teisdega. 
+* Tiimis töötada ja parem koodist sain aru. 
+* Ma nüüd oskan figmas töötada.
 
 ### Mari-Liis
 *Järgmistest projektides saan kasutada Githubi üles- ja allalaadimis oskuseid, Figma oskused laienesid, CSS ja HTML koodi kirjutamis kogemus tuleb ilmselt uutes projektides abiks. 
