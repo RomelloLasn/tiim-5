@@ -16,6 +16,13 @@ https://www.figma.com/file/4seYwTyBm2Oc5FlCV7gWqo/portfoolio-tiim5?node-id=0%3A1
 * Mari-Liis
 * Aliin
 
+# Töös kasutatud vahendid:
+* Slack (suhtluskanal)
+* Figma (disain)
+* VSC (programmeerimine)
+* Github (projekti haldamine)
+* Kasutatud keeled: html, css, javascript
+
 # Töökäik
 ## 1. päev
 Tiimiga tutvumine.
@@ -69,5 +76,7 @@ tekst
 *Tehnilised oskused arenesid Figmas ja koodi kirjutamises. 
 
 ### Aliin
-tekst
+* Suhtlen tiimiga vabamalt; julgen iseseisvalt koodi kirjutada; oskan msikit figmas teha :)
+* Tiimitöö
+* Figma
 
