@@ -29,7 +29,9 @@ tekst
 tekst
 
 ### Kevin
-tekst
+Hakkan rohkem suhtlema teisdega.
+Tiimis töötada ja parem koodist sain aru.
+Ma nüüd oskan figmas töötada.
 
 ### Mari-Liis
 tekst
