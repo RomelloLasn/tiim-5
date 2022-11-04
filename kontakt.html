@@ -132,5 +132,111 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
 <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
 
+  <div class="logo">
+    <div class="pilt">
+        <img src="thumb_ametikooli-logo_400x400.jpg" alt="">
+    </div>
+</div>
+
+<div class="nupud">
+    <input type="button" onclick="" value="PEALEHT">
+    <input type="button" onclick="" value="GALERII">
+    <input type="button" onclick="" value="KONTAKT">
+</div>
+<section class="container">
+  
+  <div class="kontaktikaart">
+    <h2>Kontakt</h2>
+    <div class="text">
+    <div class="contact">
+      <div class="nimitiitel">
+        <div class="text-stuff">
+          <p>Neeme Rand</p>
+          <p>Direktor</p>
+          <p>452 4611</p>
+          <p>neeme.rand@ametikool.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Jane Mägi</p>
+          <p>IT ja ettevõtluse õppesuuna juhtõpetaja</p>
+          <p>452 4693</p>
+          <p>jane.magi@ametikool.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Andrus Naulainen</p>
+          <p>Kutseõpetaja</p>
+          <p>452 4651</p>
+          <p>andrus.naulainen@ametikool.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Ralf Heinsoo</p>
+          <p>Kutseõpetaja</p>
+          <p>452 4651</p>
+          <p>ralf.heinsoo@ametikool.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Karl Gregor Rauniste</p>
+          <p>Kutseõpetaja</p> 
+          <p>452 4651</p>
+          <p>karl_gregor.rauniste@ametikool.ee</p>    
+        </div>
+        <div class="text-stuff">
+          <p>Ian-Erik Pettersson</p>
+          <p>Kutseõpetaja</p>   
+          <p>452 4605</p>
+          <p>ian.pettersson@ametikool.ee</p>  
+        </div> 
+        <div class="text-stuff">
+          <p>Gen Vikat</p>
+          <p>Teenusepakkuja</p>
+          <p>452 4XXX</p>
+          <p>Gen.Vikat@teenus.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Evi-Ustel Hallimäe</p>
+          <p>Kutseõpetaja</p>
+          <p>452 4645</p>
+          <p>evi.ustel-hallimae@ametikool.ee</p>
+        </div>
+        <div class="text-stuff">
+          <p>Arvo Kereme</p>
+          <p>Haldusjuht</p>
+          <p>452 4642</p>
+          <p>arvo.kereme@ametikool.ee</p>
+        </div>
+        <div class="text-stuff"></div>
+          <p>Ade Sepp</p>
+          <p>Koolitusjuht</p>
+          <p>452 4666</p>
+          <p>ade.sepp@ametikool.ee</p>
+        </div>
+       </div>
+</section>
+<div><h2>Aadress</h2>
+  <div class="Aadress"></div>
+  <p>Kohtu 22, Kuressaare, 93812 Saare maakond</p></div>
+<div class="aadress">
+<div id="googleMap" style="width: 84%;height:350px; margin-top: 30px;margin-bottom: 30px;">
+</div>
+</div>
+
+<script>
+function myMap() {
+const myLatLng = { lat: 58.25632, lng: 22.48234 };
+var mapProp= {
+  center:new google.maps.LatLng(myLatLng),
+  zoom:15,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+ new google.maps.Marker({
+    position: myLatLng,
+    map
+ })
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+  
 </body>
 </html>
