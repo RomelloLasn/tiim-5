@@ -74,7 +74,10 @@ Nagu ikka, lõpus hakkab kiire :) Aga midagi hullu pole olnud. Mahtusime oma pla
 tekst
 
 ### Romello
-tekst
+* Kindlasti olem julgem ja enesekindlam
+* Õppisin rohkem suhtlema, olin rohkem julgem
+* õppisin HTML-i ja CSS-i rohkem tundma
+
 
 ### Kevin
 * Hakkan rohkem suhtlema teisdega. 
