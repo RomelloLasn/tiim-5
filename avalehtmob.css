@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* when screen is less than 600px wide
+show mobile version and hide desktop */ 
+@media only screen and (max-width: 600px) {
+
+
+    .logo2 {
+        display: flex;
+        justify-content: left;
+    }
+
+.logomobile {
+    display: flex;
+    width: 150px;
+    height: 141px;
+    justify-items: left;
+}
+
+.tekst1 {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.opilased2 img {
+    width: 100%;
+    height: 250px;
+    padding-top: 35px;
+}
+
+.opilased1 {
+    display: none;
+}
+
+.raivo {
+    display: flex;
+    justify-content: center;
+}
+
+.erialad img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.juubel {
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.pilt5 img {
+    width: 100%;
+    height: 325px;
+}
+
+.juubelipidu {
+    display: flex;
+    
+}
+.juubelitekst {
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.pohivaartused {
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.pilt {
+    display: none !important;
+  }
+
+.nupud {
+      display: none !important;
+  }
+
+.logo {
+      display: none !important;
+  }
+
+.pilt4 {
+      display: none;
+  }
+}
+  @media all and (min-width: 600px) {
+    .logomobile {
+      display: none !important;
+    }
+    .opilased2{
+        display: none;
+    }
+    .pilt5 {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+  }
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.pilt img {
+    width: 750px;
+    height: 150px;
+}
+
+.nupud {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.nupud a{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.tekst1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.opilased1 img {
+    width: 400px;
+    height: 250px;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.raivo {
+    display: flex;
+}
+
+.erialad {
+    display: flex;
+    justify-content: center;
+}
+
+.erialad img{
+    width: 80%;
+    height: 300px;
+}
+
+.juubel {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pilt4 img {
+    width: 600px;
+    height: 325px;
+    padding-right: 50px;
+}
+
+.juubelipidu {
+    display: flex;
+}
+
+.juubelitekst {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pohivaartused {
+    padding-left: 50px;
+    padding-right: 50px;
+}
