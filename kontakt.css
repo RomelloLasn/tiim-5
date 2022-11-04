@@ -78,3 +78,88 @@ h2 {
 p{
     margin: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact{
+    display: flex;
+    background-color: lightgrey;
+}
+.text-stuff p{
+    line-height: 0.5;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.container{
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.text {
+text-align: left;
+
+
+
+
+
+}
+.kontaktikaart{
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    gap: 25px;
+    width: 300px;
+    text-align: center;
+    
+}
+/* .aadress{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+
+
+
+
+  .pilt img {
+        width: 100px;
+        height: 100px;
+
+
+    }
+
+/* hide mobile version by default */
+.logomobile 
+   
+.nupud {
+    display: none;
+}
+input {
+    display: none;
+}
+/* when screen is less than 600px wide
+show mobile version and hide desktop */
+@media only screen and (max-width: 600px) {
+    body
+    .logomobile {
+        display: flex;
+        width: 150px;
+        height: 141px;
+        left: 0px;
+        top: 0px;
+    }
+    .logo{
+      display: flex;
+      justify-content: left;    
+    }
+   
+
+
+
+
+
+}
+}
