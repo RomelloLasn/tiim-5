@@ -44,10 +44,21 @@ Eelmisel päeva töö review.
 
 Koodi kirjutamine.
 
-## 3. päev
+Jooksvate probleemide lahendamine.
 
+## 3. päev
+Burgermenu tegemine.
+
+Mergimine.
+
+Viimased viimistlused.
+
+Readme faili täiendamine.
+
+Esitluseks ettevalmistus.
 
 ## Kas aja planeerimine vastas tegelikkusele?
+Nagu ikka, lõpus hakkab kiire :) Aga midagi hullu pole olnud. Mahtusime oma planeeritud aja sisse.
 
 # FAQ
 * Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
@@ -71,11 +82,9 @@ tekst
 * Ma nüüd oskan figmas töötada.
 
 ### Mari-Liis
-*Järgmistest projektides saan kasutada Githubi üles- ja allalaadimis oskuseid, Figma oskused laienesid, CSS ja HTML koodi kirjutamis kogemus tuleb ilmselt uutes projektides abiks. 
-
-*Meeskonnaga ja õppejõududega probleemide lahendamine/suhtlemine.
-
-*Tehnilised oskused arenesid Figmas ja koodi kirjutamises. 
+* Järgmistest projektides saan kasutada Githubi üles- ja allalaadimis oskuseid, Figma oskused laienesid, CSS ja HTML koodi kirjutamis kogemus tuleb ilmselt uutes projektides abiks. 
+* Meeskonnaga ja õppejõududega probleemide lahendamine/suhtlemine.
+* ehnilised oskused arenesid Figmas ja koodi kirjutamises. 
 
 ### Aliin
 * Suhtlen tiimiga vabamalt; julgen iseseisvalt koodi kirjutada; oskan msikit figmas teha :)
