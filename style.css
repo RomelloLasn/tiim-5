@@ -6,10 +6,10 @@
 }
 .contact{
     display: flex;
-    background-color: grey;
+    background-color: lightgrey;
 }
 .text-stuff p{
-    line-height: 0.4;
+    line-height: 0.5;
     padding-bottom: 8px;
     padding-top: 8px;
 }
@@ -18,7 +18,7 @@
     max-width: 550px;
     margin: auto;
     display: flex;
-    
+    margin-bottom: 15px;
     
 }
 .text {
@@ -34,21 +34,26 @@ text-align: left;
     flex-direction: column;
     margin: auto;
     gap: 25px;
-    width: auto;
+    width: 300px;
     text-align: center;
     
 }
-.aadress{
-
-
-    
-}
-
-
-
+/* .aadress{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+} */
 
 
 
+
+
+  .pilt img {
+        width: 100px;
+        height: 100px;
+
+
+    }
 
 /* hide mobile version by default */
 .logomobile 
@@ -74,12 +79,8 @@ show mobile version and hide desktop */
       display: flex;
       justify-content: left;    
     }
-     .pilt img {
-        width: 100px;
-        height: 100px;
+   
 
-
-    }
 
 
 
